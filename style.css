@@ -1,0 +1,35 @@
+.parent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.child {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    transition: 0,5s;
+    margin: 20px;
+}
+
+button {
+    background-color: aqua;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.child:hover{
+    width: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+body{
+    background-color: teal;
+}
